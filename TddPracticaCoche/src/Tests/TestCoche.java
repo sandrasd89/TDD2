@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 class TestCoche {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void test_crear_coche() {
+		Coche nuevoCoche = new Coche();
 	}
 
 }
