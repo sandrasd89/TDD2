@@ -13,4 +13,12 @@ class TestCoche {
 		Assertions.assertEquals(0, nuevoCoche.velocidad);
 	}
 
+	@Test
+	void test_al_acelerar_un_coche_su_velocidad_aumenta() {
+		Coche nuevoCoche = new Coche();
+		nuevoCoche.acelerar(30);
+		Assertions.assertEquals(30, nuevoCoche.velocidad);
+	}
+
+
 }
